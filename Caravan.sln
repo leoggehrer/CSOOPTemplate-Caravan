@@ -5,7 +5,12 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caravan.Logic", "Caravan.Logic\Caravan.Logic.csproj", "{8E09431B-4AEF-4F9D-AB69-B61ADA52F97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caravan.UnitTest", "Caravan.UnitTest\Caravan.UnitTest.csproj", "{C04B85D6-8770-4971-9A24-A9B3CD88EDD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caravan.UnitTest", "Caravan.UnitTest\Caravan.UnitTest.csproj", "{C04B85D6-8770-4971-9A24-A9B3CD88EDD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3BFA9BA5-A982-4343-B0DB-AFF1985633AB}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
