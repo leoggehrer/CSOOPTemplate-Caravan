@@ -34,7 +34,7 @@
         /// </summary>
         /// <param name="name">Name des Packtiers</param>
         /// <returns>Packtier</returns>
-        public PackAnimal this[string name]
+        public PackAnimal? this[string name]
         {
             get
             {
@@ -49,7 +49,7 @@
         /// </summary>
         /// <param name="index"></param>
         /// <returns></returns>
-        public PackAnimal this[int index]
+        public PackAnimal? this[int index]
         {
             get
             {

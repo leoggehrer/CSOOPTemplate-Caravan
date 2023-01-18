@@ -9,21 +9,20 @@
         /// <summary>
         /// Damit die Vorlage compilierbar bleibt
         /// </summary>
-        public PackAnimal()
+        protected PackAnimal()
         {
-
         }
 
         /// <summary>
         /// Name des Tiers und Maximalgeschwindigkeit des Tiers
         /// </summary>
-        /// <param name="name"></param>
-        /// <param name="mp"></param>
-        public PackAnimal(string name, int mp)
+        /// <param name="name">Name</param>
+        /// <param name="maxPace">MaxPace</param>
+        protected PackAnimal(string name, int maxPace)
         {
         }
 
-        public string Name { get { return null;  } }
+        public string Name { get { return string.Empty;  } }
 
         /// <summary>
         /// Maximale Geschwindigkeit des Tiers
